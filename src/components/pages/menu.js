@@ -7,7 +7,7 @@ import SkewedPic from "../../../static/images/entree.jpg";
 import Appetizer from "../../../static/images/App.jpg";
 import Entree from "../../../static/images/maindish.jpg";
 import Sidedish from "../../../static/images/sidedish.jpg";
-import Dessert from "../../../static/images/Dessert.jpg";
+import Dessert from "../../../static/images/dessert.jpg";
 
 export default function menu() {
   return (
