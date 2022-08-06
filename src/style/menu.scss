@@ -1,0 +1,101 @@
+.menuPage {
+  width: 100vw;
+
+  .skewed-header {
+    position: relative;
+
+    height: 400px;
+    overflow: hidden;
+
+    .header-bg {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+
+      transform: skewY(-6deg);
+      transform-origin: top left;
+      filter: brightness(65%);
+    }
+
+    .skewed-header-wrapper {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      width: 100vw;
+      font-family: "roboto", sans-sarif;
+      .skewed-header-content {
+        width: 1000px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .heading-wrapper {
+          background-color: #cea135;
+          color: #11122b;
+          border-bottom-left-radius: 2px;
+          border-bottom-right-radius: 2px;
+          width: 250px;
+          padding: 10px;
+          text-align: center;
+        }
+      }
+      .link-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .navbar-link {
+          width: 80px;
+          text-align: center;
+          color: #e1d5cc;
+          font-size: 1.75rem;
+          text-decoration: none;
+          transition: 0.5s;
+
+          &:hover {
+            color: #cea135;
+            letter-spacing: 2px;
+          }
+        }
+      }
+    }
+  }
+
+  .squares-wrapper {
+    display: flex;
+    justify-content: center;
+
+    .squares {
+      width: 100%;
+      margin-left: 25px;
+      margin-right: 25px;
+
+      .square {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .img-wrapper img {
+          width: 100%;
+          height: 350px;
+          object-fit: cover;
+          border-radius: 20px;
+        }
+        .square-text-wrapper {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          padding: 42px;
+          ul {
+            font-size: 1.2em;
+            margin-top: 10px;
+          }
+          h1 {
+            color: #cea135;
+          }
+        }
+      }
+    }
+  }
+}

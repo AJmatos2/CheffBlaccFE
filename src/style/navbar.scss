@@ -1,0 +1,110 @@
+.navActive {
+  display: flex;
+
+  .navbar-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 225px;
+    width: 100vw;
+    padding-bottom: 10px;
+
+    background: linear-gradient(to right, #5a433b 0%, #efe9d1 100%);
+
+    .left-column {
+      display: flex;
+      align-items: center;
+
+      .phone-icon {
+        margin-right: 15px;
+        font-size: 2em;
+
+        i {
+          color: #efe;
+        }
+      }
+
+      .contact-hours {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        font-size: 1.3rem;
+        color: #e1d5cc;
+      }
+    }
+
+    .center-column {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 42px;
+      width: 500px;
+
+      .link-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .nav-link {
+          width: 70px;
+          text-align: center;
+          color: #e1d5cc;
+          font-size: 1.5rem;
+          text-decoration: none;
+          transition: 0.5s;
+
+          &:hover {
+            color: #cea135;
+            letter-spacing: 2px;
+          }
+        }
+      }
+
+      .banner-image {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+
+        img {
+          width: 150px;
+          height: 150px;
+          border-radius: 40px;
+        }
+      }
+    }
+
+    .right-column {
+      .address-wrapper {
+        display: flex;
+        align-items: center;
+        font-size: 1.3rem;
+        text-align: right;
+
+        a {
+          color: #a17363;
+          text-decoration: none;
+          font-size: 0.9em;
+          transition: 0.5s;
+
+          &:hover {
+            color: #ce9614;
+          }
+        }
+
+        .addy-icon {
+          margin-left: 15px;
+          font-size: 2em;
+
+          a {
+            color: #5a433b;
+            transition: 0.5s;
+
+            &:hover {
+              color: #cea135;
+            }
+          }
+        }
+      }
+    }
+  }
+}
