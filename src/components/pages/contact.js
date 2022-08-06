@@ -77,7 +77,7 @@ export default function contact() {
 
   const getAllMenuItems = () => {
     axios
-      .get("https://chefblaccbe.herokuapp.com/get"")
+      .get("https://chefblaccbe.herokuapp.com/get")
       .then((response) => {
         response.data.forEach((item) => {
           const tempItem = {
