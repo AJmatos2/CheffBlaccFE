@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { FaTwitter, FaInstagramSquare, FaFacebookSquare } from "react-icons/fa";
 
-import Logo from "../../../static/images/cheff-black-logo.jpg";
+import Logo from "../../../static/images/cheff-black-Logo.jpg";
 
 export default function Footer() {
   return (

@@ -10,7 +10,7 @@ import { FaPhoneVolume, FaMapMarkerAlt, FaRegClock } from "react-icons/fa";
 import axios from "axios";
 
 import NavigationContainer from "../navigation/navigation-container";
-import Logo from "../../../static/images/cheff-black-logo.jpg";
+import Logo from "../../../static/images/cheff-black-Logo.jpg";
 
 const animatedComponents = makeAnimated();
 
