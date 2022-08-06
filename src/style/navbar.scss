@@ -5,11 +5,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-
     height: 225px;
-    width: 100vw;
+    width: 100%;
     padding-bottom: 10px;
-
     background: linear-gradient(to right, #5a433b 0%, #efe9d1 100%);
 
     .left-column {
@@ -38,7 +36,6 @@
       display: grid;
       grid-template-columns: 1fr;
       grid-gap: 42px;
-      width: 500px;
 
       .link-wrapper {
         display: flex;
@@ -66,8 +63,9 @@
         margin-top: 15px;
 
         img {
-          width: 150px;
-          height: 150px;
+          margin-top: 30px;
+          width: 125px;
+          height: 125px;
           border-radius: 40px;
         }
       }

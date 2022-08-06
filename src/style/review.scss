@@ -1,0 +1,48 @@
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 40px;
+  max-width: 700px;
+  box-shadow: 3px 3px 15px 8px #543f37;
+  border-radius: 24px 24px 24px 24px;
+  padding: 10px;
+
+  p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .spanSlider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      height: 20px;
+      width: 20px;
+      margin: 0 3px;
+
+      &::before {
+        content: "";
+        height: 8px;
+        width: 8px;
+        background-color: #5a433b;
+        border-radius: 50%;
+        transition: background-color 0.3s ease;
+      }
+    }
+    span:hover::before {
+      background-color: bisque;
+    }
+
+    // span [data-review="${active}]::before{
+    //     background-color: #45454d;
+    // }
+  }
+}

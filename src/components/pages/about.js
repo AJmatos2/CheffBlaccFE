@@ -2,6 +2,7 @@ import React from "react";
 import NavigationContainer from "../navigation/navigation-container";
 
 import CheffSelfie from "../../../static/images/cheff-self.jpg";
+import Reviews from "../reviews/review";
 
 export default function about() {
   return (
@@ -26,7 +27,7 @@ export default function about() {
               nam distinctio, veritatis ab deserunt nesciunt.
             </p>
 
-            <p>
+            {/* <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
               beatae nisi voluptatem, delectus fuga obcaecati doloribus dolore
               sequi maxime earum ea amet sit aspernatur quae omnis numquam
@@ -37,62 +38,12 @@ export default function about() {
               harum, nobis earum culpa illum dolore officia consequatur. Aperiam
               quis consectetur delectus dolore sed praesentium laboriosam, quasi
               in odit magni officia.
-            </p>
+            </p> */}
           </div>
         </div>
 
-        <div className="review-container">
-          <div className="review-content">
-            <div className="stars-outer">
-              <p>★ ★ ★ ★ ★</p>
-            </div>
-            <h3>
-              <em> I just had to Reach Out! </em>
-            </h3>
-            <p>
-              The food was amazing. The cheff Absolutely killed the vegan
-              Cauliflower corn fritters! I'll Definitely be contacting you real
-              real soon, God Bless!
-            </p>
-            <p>[Ig instagram name ]</p>
-          </div>
-          <div className="review-content">
-            <div className="stars-outer">
-              <p>★ ★ ★ ★ ★</p>
-            </div>
-            <h3>
-              <em>
-                Completely proffesional from arrival to set-up to break down
-              </em>
-            </h3>
-            <p>
-              Cannnot for a second being to express how much I truly enjoyed the
-              experience CheffBlacc provided. Given the freedom to choose
-              exactly what he thought worked well together because it was all
-              delicious and expertly designed. A three course meal for a party
-              of 15, was provided in a timely and efficient manner providing an
-              unforgettable experience. The food was prepared perfectly to the
-              T. I can't stress how amazing the settting was made because of his
-              excellent planning.
-              <br />
-              Side note - the swordfish is a must have special request!!!
-            </p>
-            <p>[Ig instagram name ]</p>
-          </div>
-          <div className="review-content">
-            <div className="stars-outer">
-              <p>★ ★ ★ ★ ★</p>
-            </div>
-            <h3>
-              <em> I just had to Reach Out! </em>
-            </h3>
-            <p>
-              The food was amazing. The cheff Absolutely killed the vegan
-              Cauliflower corn fritters! I'll Definitely be contacting you real
-              real soon, God Bless!
-            </p>
-            <p>[Ig instagram name ]</p>
-          </div>
+        <div>
+          <Reviews />
         </div>
       </div>
     </div>

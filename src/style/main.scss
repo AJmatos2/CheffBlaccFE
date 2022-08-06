@@ -22,10 +22,8 @@ body {
 }
 
 .app {
-  // margin-top: 2rem;
-  display: grid;
   justify-items: center;
-  width: 100vw;
+  width: auto;
 }
 
 @import "./navbar.scss";
@@ -35,3 +33,4 @@ body {
 @import "./menu.scss";
 @import "./medqueries.scss";
 @import "./contact.scss";
+@import "./review.scss";

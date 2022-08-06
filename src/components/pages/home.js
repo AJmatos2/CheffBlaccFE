@@ -19,7 +19,7 @@ export default function home() {
       >
         <div className="top-heading">
           <h2 text-align="center">
-            Bringing the Caribian flavor to your every Occasion
+            Bringing the caribbean flavor to your every occasion
           </h2>
         </div>
 
