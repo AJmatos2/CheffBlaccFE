@@ -12,7 +12,7 @@ export default function Footer() {
       </div>
       <div className="footer-phone-hours">
         <div className="phone">555-555-5555</div>
-        <div className="hours">10am-midnight</div>
+        <div className="hours">10am - 6pm</div>
       </div>
 
       <div className="link-wrapper">
@@ -27,15 +27,16 @@ export default function Footer() {
         <NavLink className="navbar-link" activeClassName="selected" to="/about">
           About
         </NavLink>
+
+        <NavLink className="navbar-link" activeClassName="selected" to="/menu">
+          Menu
+        </NavLink>
         <NavLink
           className="navbar-link"
           activeClassName="selected"
           to="/contact"
         >
           Contact
-        </NavLink>
-        <NavLink className="navbar-link" activeClassName="selected" to="/menu">
-          Menu
         </NavLink>
       </div>
 

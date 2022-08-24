@@ -18,7 +18,7 @@ export default function Navbar(props) {
             <div className="contact-hours">
               <div className="phone">123-456-7890</div>
 
-              <div className="hours">10am- midnight</div>
+              <div className="hours">10am - 6pm</div>
             </div>
           </div>
 
@@ -42,13 +42,7 @@ export default function Navbar(props) {
               >
                 About
               </NavLink>
-              <NavLink
-                className="nav-link"
-                activeClassName="selected"
-                to="/contact"
-              >
-                Contact
-              </NavLink>
+
               <NavLink
                 className="nav-link"
                 activeClassName="selected"
@@ -56,15 +50,19 @@ export default function Navbar(props) {
               >
                 Menu
               </NavLink>
+              <NavLink
+                className="nav-link"
+                activeClassName="selected"
+                to="/contact"
+              >
+                Contact
+              </NavLink>
             </div>
           </div>
 
           <div className="right-column">
             <div className="address-wrapper">
-              <a href="contact.html">
-                123 ItsFine St, <br />
-                Lawrence, Ma. 01420
-              </a>
+              <a href="contact.html">Lawrence, Ma. 01841 </a>
 
               <div className="addy-icon">
                 <a href="contact.html">

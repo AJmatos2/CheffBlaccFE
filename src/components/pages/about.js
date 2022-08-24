@@ -26,19 +26,6 @@ export default function about() {
               selection. nostrum at alias. Assumenda architecto ducimus odit a
               nam distinctio, veritatis ab deserunt nesciunt.
             </p>
-
-            {/* <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              beatae nisi voluptatem, delectus fuga obcaecati doloribus dolore
-              sequi maxime earum ea amet sit aspernatur quae omnis numquam
-              voluptas nemo praesentium accusantium modi impedit odio? Minus
-              quam hic at beatae consectetur ut rerum distinctio quaerat dolore
-              suscipit. Dolor sapiente nostrum enim, explicabo quasi
-              voluptatibus. Officiis non, obcaecati minus ipsa sequi assumenda
-              harum, nobis earum culpa illum dolore officia consequatur. Aperiam
-              quis consectetur delectus dolore sed praesentium laboriosam, quasi
-              in odit magni officia.
-            </p> */}
           </div>
         </div>
 

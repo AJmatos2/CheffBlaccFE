@@ -100,6 +100,36 @@
     }
   }
 
+  .contact-container {
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    .grid-wrapper {
+      .sidebar-wrapper {
+        .logo {
+          img {
+            width: 150px;
+          }
+        }
+        .company-details-wrapper {
+        }
+      }
+      .contactForm {
+        .form-group {
+          input {
+            padding: 1.5rem 0rem;
+          }
+          textarea {
+            padding: 1.5rem 0rem;
+          }
+        }
+        .center-btn-wrapper {
+        }
+      }
+    }
+  }
+
   .menuPage {
     .skewed-header {
       .header-bg {
@@ -146,26 +176,10 @@
         }
       }
     }
-    .contact-container {
-      display: flex;
-      width: auto;
-    }
   }
 
   .page-container {
     padding-left: 21px;
     padding-right: 21px;
-  }
-
-  .contact-grid-wrapper {
-    width: 100%;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-  }
-  .form input {
-    padding: 1.5rem 0rem;
-  }
-  .form textarea {
-    padding: 1.5rem 0rem;
   }
 }

@@ -45,19 +45,20 @@ export default function menu() {
               >
                 About
               </NavLink>
-              <NavLink
-                className="navbar-link"
-                activeClassName="selected"
-                to="/contact"
-              >
-                Contact
-              </NavLink>
+
               <NavLink
                 className="navbar-link"
                 activeClassName="selected"
                 to="/menu"
               >
                 Menu
+              </NavLink>
+              <NavLink
+                className="navbar-link"
+                activeClassName="selected"
+                to="/contact"
+              >
+                Contact
               </NavLink>
             </div>
           </div>
