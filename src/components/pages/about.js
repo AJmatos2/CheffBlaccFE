@@ -23,8 +23,7 @@ export default function about() {
               people together with delicious meals from a culture they might not
               otherwise be familiar with. My business specializes in private
               dinners and event catering with a Caribbean based cuisine
-              selection. nostrum at alias. Assumenda architecto ducimus odit a
-              nam distinctio, veritatis ab deserunt nesciunt.
+              selection.
             </p>
           </div>
         </div>
