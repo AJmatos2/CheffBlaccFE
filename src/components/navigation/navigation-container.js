@@ -16,7 +16,7 @@ export default function Navbar(props) {
               <FaPhoneVolume />
             </div>
             <div className="contact-hours">
-              <div className="phone">123-456-7890</div>
+              <div className="phone"> (617) 580-1374 </div>
 
               <div className="hours">10am - 6pm</div>
             </div>

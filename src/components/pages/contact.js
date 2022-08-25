@@ -121,19 +121,16 @@ export default function contact() {
             </div>
             <div className="company-details-wrapper">
               <FaMapMarkerAlt className="icon" />
-              <div>
-                123 any street <br />
-                Lawrence, MA, 12345
-              </div>
+              <div>Lawrence, MA, 12345</div>
             </div>
             <div className="company-details-wrapper">
               <FaPhoneVolume className="icon" />
-              <div>123-456-7890</div>
+              <div>(617) 580-1374</div>
             </div>
             <div className="company-details-wrapper">
               <FaRegClock className="icon" />
 
-              <div>12a-MIDNIGHT</div>
+              <div>10am - 6pm</div>
             </div>
           </div>
 

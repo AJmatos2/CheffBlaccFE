@@ -11,8 +11,8 @@ export default function Footer() {
         <img src={Logo} alt="Logo" />
       </div>
       <div className="footer-phone-hours">
-        <div className="phone">555-555-5555</div>
-        <div className="hours">10am - 6pm</div>
+        <div className="phone"> (617) 580-1374 </div>
+        <div className="hours"> 10am - 6pm </div>
       </div>
 
       <div className="link-wrapper">
